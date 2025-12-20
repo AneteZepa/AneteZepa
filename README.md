@@ -10,35 +10,36 @@
 
 ---
 
-## ✨ About Me
+## About me
 I’m an **AI & Computer Science graduate** with 5+ years of experience creating technical education for developers and beginners alike.  
-I’ve worked with companies (startups mostly) like **Sololearn**, **Code First Girls**, **Multiverse**, and **Flip Computing** ([check out Flock XR!](https://flockxr.com/)), where I designed and delivered courses on topics ranging from **Web Dev**, **Java**, and **data science** to **Gen AI**.  
+I’ve worked with companies (startups mostly) like **Sololearn**, **Code First Girls**, **Multiverse**, and **Flip Computing** ([check out Flock XR!](https://flockxr.com/)), where I designed and delivered courses on topics ranging from **Web Dev**, **Java**, and **data science** to **Machine Lerning** and **Generative AI**.  
 
-Currently freelancing and open to **global opportunities** in:  
+Currently freelancing and open to **global opportunities** in:    
+- AI, ML & Data Science  
+- Project/Program Management
 - Developer Advocacy  
-- Tech Education & Technical Writing  
-- AI & Data Science  
-- Project/Program Management  
+- Tech Education & Technical Writing
 
 ---
 
-## 📚 What I'm Up To
-- 🎮 Learning **Game Design with Godot**  
-- 📈 Sharpening my **Project Management** skills using courses
-- 💪 Regular at the gym (weights > cardio)  
-- 🫖 Enjoy both tea & coffee 
-- 🌞 Love summer, not so much the early autumn chill and darkness
-- 📖 Weekends = reading books, playing (video) games, and writing for my new [blog](https://anetezepa.github.io/blog/)    
+## A bit more about me
+- Learning more about embedded ML ([check out my bee project](https://github.com/AneteZepa/HappyBees))
+- Regular at the gym (weights > cardio)
+- I enjoy both tea & coffee, especially with a sweet treat
+- I love summer and snow, not so much the autumn chill and darkness
+- Love to do DIY from painting to renovating kitchens, making things with my hands, not just digitally
+- Still writing articles or talking about things that matter
 
 ---
 
-## 🛠️ Skills - Not Exhaustive List
-`Python` · `JavaScript` · `SQL` · `Godot` (learning)  
+## A non-exhaustive list of skills
+`Python` · `JS` · `SQL` 
+`AI and ML` · `RAG` · `Prompt Engineering` 
 `Instructional Design` · `Tech Writing` · `Project Management`  
 
 ---
 
-## 📊 GitHub Stats
+## GitHub stats
 
 Admittedly, I have been quiet here on GitHub for the last year or so - but I am bringing it back to life! 
 <a href="https://github.com/anetezepa">
@@ -51,12 +52,12 @@ Admittedly, I have been quiet here on GitHub for the last year or so - but I am 
 ---
 
 <details>
-  <summary>🌱 A bit more personal</summary>
+  <summary> A bit more personal</summary>
   <br/>
-  • Based in **Riga, Latvia**, open to global roles  <br/>
+  • Based in Riga, Latvia, open to global roles  <br/>
   • Supporter of AI (great for putting a lot on the paper quickly, but definitely needs editing) — but mindful of flaws, overuse & IP concerns  <br/>
   • Built & ran hackathons back in uni, created women coding communities at CFG, and still love community building  <br/>
-  • Happy to have a chat about most topics - feel free to reach out!<br/>
+  • Happy to have a chat about most topics - feel free to reach out either on LinkedIn or email!<br/>
 </details>
 
 
