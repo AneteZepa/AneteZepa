@@ -42,11 +42,11 @@ Currently freelancing and open to **global opportunities** in:
 ## GitHub stats
 
 Admittedly, I have been quiet here on GitHub for the last year or so - but I am bringing it back to life! 
-<a href="https://github.com/anetezepa">
-  <img align="center" height="160" src="https://github-readme-stats.vercel.app/api?username=anetezepa&show_icons=true&hide_title=true&hide_rank=false" />
+<a href="https://github.com/AneteZepa">
+  <img align="center" height="160" src="https://github-readme-stats.vercel.app/api?username=AneteZepa&show_icons=true&hide_title=true&hide_rank=false" />
 </a>
-<a href="https://github.com/anetezepa">
-  <img align="center" height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anetezepa&layout=compact&hide_title=true" />
+<a href="https://github.com/AneteZepa">
+  <img align="center" height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AneteZepa&layout=compact&hide_title=true" />
 </a>
 
 ---
