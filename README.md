@@ -1,7 +1,7 @@
 <!-- Header -->
 <div align="center">
   <h1>Hi, I'm Anete 👋</h1>
-  <p>Developer-focused educator • AI enthusiast • Technical content creator</p>
+  <p>AI and ML Developer • Developer-focused educator • Technical content creator</p>
 
   <a href="https://anetezepa.github.io/blog/"><img src="https://img.shields.io/badge/Blog-Read-blue?logo=githubpages" /></a>
   <a href="mailto:anete.zepaa@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-red?logo=gmail" /></a>
