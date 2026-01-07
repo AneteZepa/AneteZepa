@@ -1,33 +1,42 @@
 name: Update GitHub Stats Images
-
 on:
-  schedule:
-    - cron: '0 0 * * *' # Runs every day at midnight
-  workflow_dispatch: # Allows you to run it manually
+  workflow_dispatch:
   push:
     branches: [ main ]
+  schedule:
+    - cron: '42 3 * * *'
 
 jobs:
   update-stats:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Explicitly tell GitHub this job needs to write files
+      contents: write
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
         with:
-          persist-credentials: true # Ensures the token stays valid for the 'git push' step
+          persist-credentials: true
 
       - name: Download Stats Image
         run: |
           mkdir -p generated
-          curl "https://github-readme-stats.vercel.app/api?username=AneteZepa&show_icons=true&hide_title=true&hide_rank=false" -o generated/stats.svg
-          curl "https://github-readme-stats.vercel.app/api/top-langs/?username=AneteZepa&layout=compact&hide_title=true" -o generated/langs.svg
+          # Download to temp files first
+          curl -L "https://github-readme-stats-six-retrace.vercel.app/api?username=AneteZepa&show_icons=true&hide_title=true" -o generated/stats_temp.svg
+          curl -L "https://github-readme-stats-six-retrace.vercel.app/api/top-langs/?username=AneteZepa&layout=compact&hide_title=true" -o generated/langs_temp.svg
+          
+          # Check if the files actually contain SVG code. If they contain "DEPLOYMENT_PAUSED", grep will fail.
+          if grep -q "<svg" generated/stats_temp.svg; then
+            mv generated/stats_temp.svg generated/stats.svg
+          fi
+          
+          if grep -q "<svg" generated/langs_temp.svg; then
+            mv generated/langs_temp.svg generated/langs.svg
+          fi
 
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add generated/*.svg
-          git commit -m "Update stats images" || exit 0
+          git commit -m "Update stats images" || echo "No changes to commit"
           git push
