@@ -20,9 +20,9 @@ jobs:
       - name: Download Stats Image
         run: |
           mkdir -p generated
-          # Download to temp files first
-          curl -L "https://github-readme-stats-six-retrace.vercel.app/api?username=AneteZepa&show_icons=true&hide_title=true" -o generated/stats_temp.svg
-          curl -L "https://github-readme-stats-six-retrace.vercel.app/api/top-langs/?username=AneteZepa&layout=compact&hide_title=true" -o generated/langs_temp.svg
+          # Using a stable, alternative community instance
+          curl -L "https://github-readme-stats-readme-stats.vercel.app/api?username=AneteZepa&show_icons=true&hide_title=true&hide_rank=false" -o generated/stats.svg
+          curl -L "https://github-readme-stats-readme-stats.vercel.app/api/top-langs/?username=AneteZepa&layout=compact&hide_title=true" -o generated/langs.svg
           
           # Check if the files actually contain SVG code. If they contain "DEPLOYMENT_PAUSED", grep will fail.
           if grep -q "<svg" generated/stats_temp.svg; then
