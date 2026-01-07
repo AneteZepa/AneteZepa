@@ -1,42 +1,45 @@
-name: Update GitHub Stats Images
+name: Update README cards
+
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *" # Runs daily
+  workflow_dispatch: # Allows manual run
   push:
     branches: [ main ]
-  schedule:
-    - cron: '42 3 * * *'
+
+permissions:
+  contents: write
 
 jobs:
-  update-stats:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+
+      # IMPORTANT: Ensure the folder exists before generating images
+      - name: Create profile directory
+        run: mkdir -p profile
+
+      - name: Generate stats card
+        uses: Pranesh-2005/github-readme-stats-fast-action@v1
         with:
-          persist-credentials: true
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=radical
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Download Stats Image
-        run: |
-          mkdir -p generated
-          # Using a stable, alternative community instance
-          curl -L "https://github-readme-stats-readme-stats.vercel.app/api?username=AneteZepa&show_icons=true&hide_title=true&hide_rank=false" -o generated/stats.svg
-          curl -L "https://github-readme-stats-readme-stats.vercel.app/api/top-langs/?username=AneteZepa&layout=compact&hide_title=true" -o generated/langs.svg
-          
-          # Check if the files actually contain SVG code. If they contain "DEPLOYMENT_PAUSED", grep will fail.
-          if grep -q "<svg" generated/stats_temp.svg; then
-            mv generated/stats_temp.svg generated/stats.svg
-          fi
-          
-          if grep -q "<svg" generated/langs_temp.svg; then
-            mv generated/langs_temp.svg generated/langs.svg
-          fi
+      - name: Generate top languages card
+        uses: Pranesh-2005/github-readme-stats-fast-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=radical
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit and Push
+      - name: Commit cards
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add generated/*.svg
-          git commit -m "Update stats images" || echo "No changes to commit"
-          git push
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update README cards" || echo "No changes to commit"
+          git push origin HEAD
