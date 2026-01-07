@@ -43,11 +43,15 @@ Currently freelancing and open to **global opportunities** in:
 
 Admittedly, I have been quiet here on GitHub for the last year or so - but I am bringing it back to life! 
 <a href="https://github.com/AneteZepa">
-  <img align="center" height="160" src="generated/stats.svg" />
-</a>
-<a href="https://github.com/AneteZepa">
-  <img align="center" height="160" src="generated/langs.svg" />
-</a>
+<p align="center">
+  <img src="profile/stats.svg" alt="Stats Card" />
+  <img src="profile/top-langs.svg" alt="Languages Card" />
+</p>
+
+![Stats](./profile/stats.svg)
+![Top Languages](./profile/top-langs.svg)
+![Streak](./profile/streak.svg)
+![Pinned](./profile/pin-readme-tools-github-readme-stats.svg)
 
 ---
 
