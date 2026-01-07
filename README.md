@@ -49,7 +49,7 @@ Admittedly, I have been quiet here on GitHub for the last year or so - but I am 
   <img align="center" height="160" src="generated/langs.svg" />
 </a>
 
-[![Anete's GitHub stats](https://github-readme-stats.vercel.app/api?username=anetezepa)](https://github.com/anuraghazra/github-readme-stats)
+![Anete's GitHub stats](https://github-readme-stats.vercel.app/api?username=anetezepa)
 
 ---
 
