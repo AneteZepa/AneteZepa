@@ -10,9 +10,13 @@ on:
 jobs:
   update-stats:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Explicitly tell GitHub this job needs to write files
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true # Ensures the token stays valid for the 'git push' step
 
       - name: Download Stats Image
         run: |
