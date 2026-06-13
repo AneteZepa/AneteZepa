@@ -1,6 +1,6 @@
 <!-- Header -->
 <div align="center">
-  <h1>Hi, I'm Anete 👋</h1>
+  <h1>The intro to Anete</h1>
   <p>AI and ML Developer • Developer-focused educator • Technical content creator</p>
 
   <a href="https://anetezepa.github.io/blog/"><img src="https://img.shields.io/badge/Blog-Read-blue?logo=githubpages" /></a>
@@ -11,31 +11,23 @@
 ---
 
 ## About me
-I’m an **AI & Computer Science graduate** with 5+ years of experience creating technical education for developers and beginners alike.  
-I’ve worked with companies (startups mostly) like **Sololearn**, **Code First Girls**, **Multiverse**, and **Flip Computing** ([check out Flock XR!](https://flockxr.com/)), where I designed and delivered courses on topics ranging from **Web Dev**, **Java**, and **data science** to **Machine Lerning** and **Generative AI**.  
+I’m an AI & Computer Science graduate with 5+ years of experience in TechEd. I currently work as **an AI Engineer** - building real systems that are not just LLM wrappers. 
 
-Currently freelancing and open to **global opportunities** in:    
-- AI, ML & Data Science  
-- Project/Program Management
-- Developer Advocacy  
-- Tech Education & Technical Writing
+In my past life I worked with TechEd startups like **Sololearn**, **Code First Girls**, **Multiverse**, and **Flip Computing** ([check out Flock XR!](https://flockxr.com/)), where I created and delivered beginner to mid career and leadership aimed accelerator courses on topics ranging from **Web Dev**, **Python**, and **data science** to **Machine Lerning**, **Generative AI**, and **Leadership**. 
 
 ---
 
 ## A bit more about me
-- Learning more about embedded ML ([check out my bee project](https://github.com/AneteZepa/HappyBees))
-- Regular at the gym (weights > cardio)
-- I enjoy both tea & coffee, especially with a sweet treat
-- I love summer and snow, not so much the autumn chill and darkness
-- Love to do DIY from painting to renovating kitchens, making things with my hands, not just digitally
-- Still writing articles or talking about things that matter
+- Capable outside the digital world in everythinggg
+- Europe
+- High standards, but lazy
 
 ---
 
 ## A non-exhaustive list of skills
-`Python` · `JS` · `SQL` 
-`AI and ML` · `RAG` · `Prompt Engineering` 
-`Instructional Design` · `Tech Writing` · `Project Management`  
+`Python` · `JS` · `SQL` · `vibecoding - but I know what's up`  ·
+`AI and ML` · `RAG` · `Prompt Engineering` · `ADK` · `Agents` · `GCP`  ·
+`Instructional Design` · `Tech Writing` · `Project Management` 
 
 ---
 
@@ -59,24 +51,10 @@ Admittedly, I have been quiet here on GitHub for the last year or so - but I am 
 <details>
   <summary> A bit more personal</summary>
   <br/>
-  • Based in Riga, Latvia, open to global roles  <br/>
-  • Supporter of AI (great for putting a lot on the paper quickly, but definitely needs editing) — but mindful of flaws, overuse & IP concerns  <br/>
-  • Built & ran hackathons back in uni, created women coding communities at CFG, and still love community building  <br/>
-  • Happy to have a chat about most topics - feel free to reach out either on LinkedIn or email!<br/>
+  • Latvia and cats <br/>
+  • Supporter of AI as I am lazy (Claude Code, but use it as a tool, not to outsource your brain - try to have an original thought or take once in a while, ok?), but mindful of limitations, overuse effects & IP theft  <br/>
+  • Built & ran hackathons back in Uni, created women coding communities at CFG and more, and for sure could make a better event than most I have been at <br/>
+  • Open to new friends <br/>
+  • A bit loud, direct and not bending to 'authority' <br/>
 </details>
 
-
-<!--
-**AneteZepa/AneteZepa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
